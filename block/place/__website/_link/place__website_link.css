@@ -1,0 +1,19 @@
+.place__website_link{
+    font-family: 'Inter', 'Times New Roman', sans-serif;
+    -webkit-font-smoothing : antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+text-decoration-line: underline;
+color: #FFFFFF;
+display: grid;
+align-self: end;
+text-align: left
+
+}
+.place__website_link:hover{
+    opacity: 0.8;
+}

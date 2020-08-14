@@ -1,0 +1,14 @@
+@media screen and (min-width: 320px) and (max-width: 767px){
+    .place__website{
+    display: none;
+    }
+    
+}
+@media screen and (min-width: 1280px) {
+    .place__website {
+        width: 100%;
+        min-width: 456px;
+        align-self: end;
+        justify-self: start;
+    }
+}
