@@ -11,6 +11,9 @@ text-rendering: optimizeLegibility;
     width: 29px;
     height: 28px;
     }
+    .header__lang-link_language_en:hover{
+        opacity: 0.8;
+    }
     @media screen and (min-width: 1280px) {
      .header__lang-link_language_en{
      width: 29px;
