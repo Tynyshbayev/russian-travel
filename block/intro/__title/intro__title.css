@@ -1,5 +1,5 @@
 .intro__title{
-    font-family: 'Inter', 'Times New Roman', sans-serif;
+    font-family: 'Inter', ‘Arial’, sans-serif;
     -webkit-font-smoothing : antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
@@ -7,27 +7,13 @@ font-style: normal;
 font-weight: 900;
 color: #FFFFFF;
 margin-bottom: 40px;
-}
-@media screen and (min-width: 1280px) {
-.intro__title{
-    font-size: 54px;
+font-size: 54px;
 line-height: 58px;
     width: 690px;
+}
 
-}
-}
-@media screen and (min-width: 1024px) and (max-width: 1279px){
-    .intro__title{
-        font-size: 54px;
-    line-height: 58px;
-        width: 690px;
-
-    }
-}
 @media screen and (min-width: 768px) and (max-width: 1023px){
     .intro__title{
-        font-size: 54px;
-    line-height: 58px;
     width: 720px;
 
     }

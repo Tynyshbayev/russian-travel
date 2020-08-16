@@ -1,5 +1,5 @@
 .lead__caption{
-    font-family: 'Inter', 'Times New Roman', sans-serif;
+    font-family: 'Inter', ‘Arial’, sans-serif;
     -webkit-font-smoothing : antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
@@ -13,7 +13,6 @@ display: flex;
 align-self: flex-start;
 font-size: 10px;
 line-height: 14px;
-max-height: 14px;
 
 }
 @media screen and (min-width: 1280px) {
