@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;  
     width: calc(100% - 96px);
+    
 }
 @media screen and (min-width: 1280px) {
     .footer{
@@ -28,5 +29,6 @@
         min-width: 186px;
         margin: 0 118px 23px 16px;
         justify-content: none;
+        flex-direction: column;
     }
 }
