@@ -1,7 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../fonts/Inter/inter.css);
-@import url(../block/header/header.css);
 @import url(../block/content/content.css);
+@import url(../block/header/header.css);
 @import url(../block/header/__lang-links/header__lang-links.css);
 @import url(../block/header/__lang-link/header__lang-link.css);
 @import url(../block/header/__lang-link/_active/header__lang-link_active.css);
