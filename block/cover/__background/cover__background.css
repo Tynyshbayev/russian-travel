@@ -10,4 +10,10 @@
  background-size: cover;
  background-repeat: no-repeat;
  background-position: center center;
+ background-color: rgba(42,44,47, 0.3);
+transition: background-image 1.5s linear;
+text-decoration: none;
+}
+.cover__background:hover{
+    background-image: linear-gradient(rgba(42, 44, 47, 0.8),rgba(42, 44, 47, 0.8) ), url(../../../images/covers-trains.png);
 }
