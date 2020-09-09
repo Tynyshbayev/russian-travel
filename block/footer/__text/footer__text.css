@@ -1,22 +1,15 @@
-.footer__text {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
-    font-family: 'Inter', ‘Arial’, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 18px;
-    color: #ffffff;
-    transition: opacity 1s linear;
-    text-decoration: none;
+.footer__text{
+    list-style-type: none;
+    margin: 0 18px 0 0;
 }
-.footer__text:hover {
-    opacity: 0.8;
+.footer__text:last-child {
+    margin: 0 0 0 0;
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
-    .footer__text{
-        font-size: 24px;
-        line-height: 24px;
+    .footer__text {
+        margin: 0 0 32px 0;
+    }
+    .footer__text:last-child {
+        margin: 0 0 48px 0;
     }
 }

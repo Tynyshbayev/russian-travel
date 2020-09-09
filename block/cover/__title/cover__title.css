@@ -10,14 +10,13 @@ margin: 0;
   margin-right: auto;
   font-size: 72px;
   line-height: 76px;
-
+-webkit-font-smoothing : antialiased;
+-moz-osx-font-smoothing: grayscale;
+text-rendering: optimizeLegibility;
  
 }
 @media screen and (min-width: 1280px) {
 .cover__title{
--webkit-font-smoothing : antialiased;
--moz-osx-font-smoothing: grayscale;
-text-rendering: optimizeLegibility;
  max-width: calc(100% - 624px);
 margin-bottom: 32px;
 margin-top: 245px;

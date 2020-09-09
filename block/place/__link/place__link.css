@@ -1,8 +1,8 @@
 .place__link{
-    font-family: 'Inter', ‘Arial’, sans-serif;
-    -webkit-font-smoothing : antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
+font-family: 'Inter', ‘Arial’, sans-serif;
+-webkit-font-smoothing : antialiased;
+-moz-osx-font-smoothing: grayscale;
+text-rendering: optimizeLegibility;
 font-style: normal;
 font-weight: normal;
 font-size: 18px;

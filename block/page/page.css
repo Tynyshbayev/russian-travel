@@ -1,6 +1,13 @@
-.page {
-    max-width: 1600px;
-    margin: 0 auto;
-    background-color: #2A2C2F;
-  }
   
+.page {
+  max-width: 1184px;
+  min-width: 320px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2a2c2f;
+  margin: 0 auto;
+  padding: 0 0 0 0;
+
+}
