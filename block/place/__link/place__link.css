@@ -1,19 +1,18 @@
-.place__link{
-font-family: 'Inter', ‘Arial’, sans-serif;
--webkit-font-smoothing : antialiased;
--moz-osx-font-smoothing: grayscale;
-text-rendering: optimizeLegibility;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 22px;
-text-decoration-line: underline;
-color: #FFFFFF;
-display: grid;
-align-self: end;
-text-align: left
-
+.place__link {
+    font-family: "Inter", ‘Arial’, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #ffffff;
+    display: grid;
+    align-self: end;
+    text-align: left;
 }
-.place__link:hover{
+.place__link:hover {
     opacity: 0.8;
 }

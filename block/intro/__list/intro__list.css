@@ -1,29 +1,28 @@
-.intro__list{
-    font-family: 'Inter', ‘Arial’, sans-serif;
--webkit-font-smoothing : antialiased;
--moz-osx-font-smoothing: grayscale;
-text-rendering: optimizeLegibility;
-    list-style-type: none;
-font-style: normal;
-font-weight: bold;
-font-size: 12px;
-line-height: 18px;
-color: #FFFFFF;
-margin-left: 0;
-padding: 0;
-max-width: 690px;
+.intro__list {
+  font-family: "Inter", ‘Arial’, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  list-style-type: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  color: #ffffff;
+  margin-left: 0;
+  padding: 0;
+  max-width: 690px;
 }
 
 @media all and (max-width: 767px) {
-    .intro__list {
-        font-size: 12px;
-        line-height: 18px;
-    }
+  .intro__list {
+      font-size: 12px;
+      line-height: 18px;
   }
-  
-  @media all and (max-width: 425px) {
-    .intro__list {
+}
+
+@media all and (max-width: 425px) {
+  .intro__list {
       padding: 0;
-    }
   }
-  
+}

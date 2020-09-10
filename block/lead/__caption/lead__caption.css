@@ -1,19 +1,18 @@
-.lead__caption{
-    font-family: 'Inter', ‘Arial’, sans-serif;
-    -webkit-font-smoothing : antialiased;
+.lead__caption {
+    font-family: "Inter", ‘Arial’, sans-serif;
+    -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
-font-style: normal;
-font-weight: normal;
-letter-spacing: 0.15em;
-text-transform: uppercase;
-color: #FFFFFF;
-margin-top: 8px;
-display: flex;
-align-self: flex-start;
-font-size: 10px;
-line-height: 14px;
-
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-top: 8px;
+    display: flex;
+    align-self: flex-start;
+    font-size: 10px;
+    line-height: 14px;
 }
 
 @media all and (max-width: 1024px) {
@@ -21,7 +20,6 @@ line-height: 14px;
         margin-left: 24px;
     }
 }
-
 
 @media all and (max-width: 768px) {
     .lead__caption {
