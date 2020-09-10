@@ -14,10 +14,8 @@
     text-decoration: none;
     justify-self: center;
 }
-.cover__background:hover {
-    background-image: linear-gradient(rgba(42, 44, 47, 0.8), rgba(42, 44, 47, 0.8)), url(../../../images/cover-trains.jpg);
-}
-cover__background::after {
+
+.cover__background::after {
   content: '';
   position: absolute;
   top: 0;
