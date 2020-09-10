@@ -1,6 +1,7 @@
 .cover__background {
+    position: relative;
     display: grid;
-    background-image: url(../../../images/cover-trains.jpg), linear-gradient(rgba(42, 44, 47, 0.3), rgba(42, 44, 47, 0.3));
+    background-image: url(../../../images/cover-trains.jpg);
     width: 100%;
     height: 100%;
     z-index: -1;
@@ -15,6 +16,19 @@
 }
 .cover__background:hover {
     background-image: linear-gradient(rgba(42, 44, 47, 0.8), rgba(42, 44, 47, 0.8)), url(../../../images/cover-trains.jpg);
+}
+cover__background::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; 
+  background-color: #2A2C2F; 
+  opacity: 0.3;
+}
+.cover__background:hover::after { 
+  opacity: 0.8;
 }
 @media screen and (min-width: 1280px) {
     .cover__background {
